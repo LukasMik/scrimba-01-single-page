@@ -4,7 +4,7 @@
 
 
 body {
- @apply bg-gray-800 p-16;
+ @apply bg-gray-800 p-16 w-screen h-screen;
   * {
    @apply text-white;
  }
