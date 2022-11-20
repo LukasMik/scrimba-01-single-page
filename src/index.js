@@ -22,7 +22,17 @@ Hints:
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <img src={logo} alt=""/>
+    <React.Fragment>
+        <img className='w-32 h-auto relative -left-6' src={logo} alt=""/>
+        <h1 className="text-5xl text-blue-200 font-extrabold py-12">Fun facts about React</h1>
+        <ul>
+            <li className="py-2 font-bold text-2xl text-blue-100 ml-8">Was first release in 2013</li>
+            <li className="py-2 font-bold text-2xl text-blue-100 ml-8">Was originally created by Jordan Walke</li>
+            <li className="py-2 font-bold text-2xl text-blue-100 ml-8">Has well over 100k stars on GitHub</li>
+            <li className="py-2 font-bold text-2xl text-blue-100 ml-8">Is mainted by Meta Platforms</li>
+            <li className="py-2 font-bold text-2xl text-blue-100 ml-8">Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </React.Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function
