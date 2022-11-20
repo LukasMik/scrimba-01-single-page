@@ -2,13 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.font-family-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
 
 body {
   @apply bg-body w-full;
 }
 
-.footer {
-  @apply fixed bottom-4 w-full;
+h1, h2, h3, h4, h5, p, span {
+  @apply font-family-poppins
+}
+
+h1 {
+  @apply text-4xl font-semibold pb-8;
 }
 
 .main-container {
