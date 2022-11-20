@@ -1,8 +1,9 @@
 import React from "react";
 import star from '../../images/star.png'
 
-export default function Card({category, price, badge, unit, country, numberOfReviews, review}) {
+export default function Card({category, price, openSpots, unit, country, numberOfReviews, review}) {
     const mainPic = `https://source.unsplash.com/400x400?${category}`
+    const badge = openSpots > 0 ? `${openSpots} open slots` : 'sold out'
 
     return (
         <div className="w-44 relative">

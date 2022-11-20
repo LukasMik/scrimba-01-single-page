@@ -6,13 +6,7 @@ export default function CardSection() {
     const itemsElements = items.map(_i =>
         <Card
             key={_i.id}
-            category={_i.category}
-            badge={_i.badge}
-            review={_i.review}
-            numberOfReviews={_i.numberOfReviews}
-            country={_i.country}
-            price={_i.price}
-            unit={_i.unit}
+            {..._i}
         />)
 
     return (
