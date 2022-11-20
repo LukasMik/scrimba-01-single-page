@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+.font-family-inter {
+  font-family: Inter;
+}
 
 body {
- @apply bg-gray-800 p-16 relative min-h-screen w-screen;
+  @apply bg-gray-800 px-16 relative min-h-screen w-screen;
   * {
-   @apply text-white;
- }
- .footer {
-  @apply fixed bottom-4 w-full;
- }
+    @apply text-white font-family-inter;
+  }
+
+  .footer {
+    @apply fixed bottom-4 w-full;
+  }
 }
 
