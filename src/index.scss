@@ -4,9 +4,12 @@
 
 
 body {
- @apply bg-gray-800 p-16;
+ @apply bg-gray-800 p-16 relative min-h-screen w-screen;
   * {
    @apply text-white;
+ }
+ .footer {
+  @apply fixed bottom-4 w-full;
  }
 }
 
