@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "./card/Nav";
-import Hero from "./card/Hero";
-import CardSection from "./card/CardSection";
+import Nav from "./AirBnb/Nav";
+import Hero from "./AirBnb/Hero";
+import CardSection from "./AirBnb/CardSection";
 
 export default function AirBnb() {
     return (
