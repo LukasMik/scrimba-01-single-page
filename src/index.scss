@@ -4,9 +4,9 @@
 
 
 body {
- @apply bg-gray-800 p-16 w-screen h-screen;
+  @apply bg-gray-800 p-16 w-screen h-screen;
   * {
-   @apply text-white;
- }
+    @apply text-white;
+  }
 }
 
